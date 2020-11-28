@@ -116,6 +116,7 @@ body {
      color: white;
      text-transform: uppercase;
      max-width: 600px;
+     outline: none;
 }
 
 input {
@@ -141,7 +142,8 @@ input {
 }
 
 .search-form__button:hover {
-     background: url(../images/Hero.jpg) no-repeat left;
+    background-color: black;
+    color: white;
 }
 
 .banifest {
@@ -260,10 +262,24 @@ h2 {
 .photo_text {
      height: 785px;
      padding: 0 20px 0 20px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 131px;
 }
 .span_img{
-     width: 40%;
+   min-width: 50%;
+   max-height: 360px;
+   margin-right: 108px;
+   margin-bottom: 103px;
 }
-.span{
-  width: 300px; 
+.span_text{
+ margin-bottom: 85px;
+ font-size: 30px;
+}
+.span_p{
+     margin-bottom: 58px;
+     font-size: 16px;
+}
+.imagecard1{
+     margin-top: 104px ;
 }
