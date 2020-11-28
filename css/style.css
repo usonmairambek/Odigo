@@ -166,3 +166,12 @@ input {
      padding: 93px 100px 93px 100px;
      margin-top: -200px;
 }
+
+.header_card{
+     border: 1px solid red;
+     width: 100%;
+     height: 400px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
