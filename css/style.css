@@ -1,0 +1,168 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+
+.item {
+     width: 200px;
+     height: 100px;
+     background-color: green;
+     font-size: 30px;
+}
+
+html {
+     box-sizing: border-box;
+}
+
+*, *::before {
+     box-sizing: inherit;
+}
+
+ul {
+     list-style-type: none;
+}
+
+.wrapper {
+     max-width: 1060px;
+     margin: 0 auto;
+     padding-top: 56px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+.header {
+     background: url(../images/Hero.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 960px;
+}
+
+a {
+     text-decoration: none;
+     font-family: 'Lato', sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 15px;
+     line-height: 24px;
+     color: white;
+}
+
+body {
+     font-family: 'Lato', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.2;
+}
+
+.header__wrapper {
+     display: flex;
+     justify-content: space-between;
+}
+
+.header__list {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.header__item {
+     margin-right: 82px;
+}
+
+.header__item:last-child {
+     margin-right: 0;
+}
+
+.header__links:hover, .header__logo-pic:focus, .header__logo-pic:hover, .header__links:active, .header__links:focus {
+     opacity: 50%;
+}
+
+/* style for header content */
+
+.menu {
+     max-width: 1060px;
+     margin: 0 auto;
+     padding-top: 263px;
+}
+
+.intro__title {
+     padding-bottom: 22px;
+     max-width: 619px;
+     color: white;
+     font-size: 24px;
+     line-height: 50px;
+     font-family: 'Lato', sans-serif;
+}
+
+.intro__subtitle {
+     padding-bottom: 59px;
+     max-width: 519px;
+     color: white;
+     font-size: 14px;
+     line-height: 30px;
+}
+
+.search-form__field {
+     background: transparent url(../images/svg/circle_bgl.svg) no-repeat left;
+     background-size: 20px;
+     border: 0;
+     padding: 20px;
+     border-bottom: 2px solid #BFC0C5;
+     margin-right: 61px;
+     padding-left: 30px;
+     font-size: 10px;
+     color: white;
+     text-transform: uppercase;
+     max-width: 600px;
+}
+
+input {
+     width: 200px;
+}
+
+.search-form__wrap {
+     border: none;
+}
+
+.search-form__field::placeholder {
+     color: white;
+     font-size: 9px;
+     line-height: 40px;
+}
+
+.search-form__button {
+     padding: 15px 39px;
+     text-transform: uppercase;
+     background: #1B7DFF;
+     border: none;
+     color: white;
+}
+
+.search-form__button:hover {
+     background: url(../images/Hero.jpg) no-repeat left;
+}
+
+.banifest {
+     height: 100vh;
+}
+
+.banifest__wrap {
+     margin-top: -100px;
+     position: relative;
+     background-color: #fff;
+     max-width: 1279px;
+     margin: 0 auto;
+     height: 550px;
+     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+     position: relative;
+}
+
+.banifest__title {
+     font-weight: 500;
+     font-size: 35px;
+     line-height: 42px;
+     padding: 93px 100px 93px 100px;
+     margin-top: -200px;
+}
